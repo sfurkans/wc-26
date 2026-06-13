@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T12:49:42.807Z",
+  "updated": "2026-06-13T20:01:56.582Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -95,11 +95,18 @@
       ]
     },
     {
-      "home": "🇭🇹 Haiti",
-      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 İskoçya",
-      "status": "FT",
-      "score": "1–1",
-      "goals": []
+      "home": "🇶🇦 Katar",
+      "away": "🇨🇭 İsviçre",
+      "status": "LIVE",
+      "score": "0–1",
+      "goals": [
+        {
+          "minute": 17,
+          "player": "Breel Embolo",
+          "team": "away",
+          "type": "penalty"
+        }
+      ]
     }
   ]
 }
