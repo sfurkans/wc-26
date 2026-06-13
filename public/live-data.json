@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T12:13:39.078Z",
+  "updated": "2026-06-13T12:17:05.510Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -78,9 +78,19 @@
           "team": "home"
         },
         {
+          "minute": 45,
+          "player": "Folarin Balogun",
+          "team": "home"
+        },
+        {
           "minute": 73,
           "player": "Mauricio",
           "team": "away"
+        },
+        {
+          "minute": 90,
+          "player": "Giovanni Reyna",
+          "team": "home"
         }
       ]
     }
