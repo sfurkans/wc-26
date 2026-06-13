@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-13T12:07:40.416Z",
+  "updated": "2026-06-13T12:13:39.078Z",
   "matches": [
+    {
+      "home": "🇲🇽 Meksika",
+      "away": "🇿🇦 Güney Afrika",
+      "status": "FT",
+      "score": "2–0",
+      "goals": [
+        {
+          "minute": 9,
+          "player": "Julián Quiñones",
+          "team": "home"
+        },
+        {
+          "minute": 67,
+          "player": "Raúl Jiménez",
+          "team": "home"
+        }
+      ]
+    },
     {
       "home": "🇰🇷 Güney Kore",
       "away": "🇨🇿 Çekya",
@@ -25,25 +43,46 @@
       ]
     },
     {
-      "home": "🇲🇽 Meksika",
-      "away": "🇿🇦 Güney Afrika",
-      "status": "FT",
-      "score": "1–1",
-      "goals": []
-    },
-    {
       "home": "🇨🇦 Kanada",
       "away": "🇧🇦 Bosna Hersek",
       "status": "FT",
-      "score": "2–1",
-      "goals": []
+      "score": "1–1",
+      "goals": [
+        {
+          "minute": 21,
+          "player": "Jovo Lukić",
+          "team": "away"
+        },
+        {
+          "minute": 78,
+          "player": "Cyle Larin",
+          "team": "home"
+        }
+      ]
     },
     {
-      "home": "🇧🇷 Brezilya",
-      "away": "🇲🇦 Fas",
+      "home": "🇺🇸 ABD",
+      "away": "🇵🇾 Paraguay",
       "status": "FT",
-      "score": "3–2",
-      "goals": []
+      "score": "4–1",
+      "goals": [
+        {
+          "minute": 7,
+          "player": "Damián Bobadilla",
+          "team": "away",
+          "type": "own"
+        },
+        {
+          "minute": 31,
+          "player": "Folarin Balogun",
+          "team": "home"
+        },
+        {
+          "minute": 73,
+          "player": "Mauricio",
+          "team": "away"
+        }
+      ]
     }
   ]
 }
