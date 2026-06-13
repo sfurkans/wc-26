@@ -1,47 +1,48 @@
 {
-  "updated": "2026-06-13T12:06:12.887Z",
+  "updated": "2026-06-13T12:07:40.416Z",
   "matches": [
+    {
+      "home": "🇰🇷 Güney Kore",
+      "away": "🇨🇿 Çekya",
+      "status": "FT",
+      "score": "2–1",
+      "goals": [
+        {
+          "minute": 59,
+          "player": "Ladislav Krejčí",
+          "team": "away"
+        },
+        {
+          "minute": 67,
+          "player": "In-beom Hwang",
+          "team": "home"
+        },
+        {
+          "minute": 80,
+          "player": "Hyeon-gyu Oh",
+          "team": "home"
+        }
+      ]
+    },
     {
       "home": "🇲🇽 Meksika",
       "away": "🇿🇦 Güney Afrika",
       "status": "FT",
-      "score": "2–0",
-      "goals": [
-        {
-          "minute": 9,
-          "player": "Julián Quiñones",
-          "team": "home"
-        },
-        {
-          "minute": 67,
-          "player": "Raúl Jiménez",
-          "team": "home"
-        }
-      ]
+      "score": "1–1",
+      "goals": []
     },
     {
       "home": "🇨🇦 Kanada",
       "away": "🇧🇦 Bosna Hersek",
       "status": "FT",
-      "score": "1–1",
-      "goals": [
-        {
-          "minute": 21,
-          "player": "Jovo Lukić",
-          "team": "away"
-        },
-        {
-          "minute": 78,
-          "player": "Cyle Larin",
-          "team": "home"
-        }
-      ]
+      "score": "2–1",
+      "goals": []
     },
     {
-      "home": "🇺🇸 ABD",
-      "away": "🇵🇾 Paraguay",
+      "home": "🇧🇷 Brezilya",
+      "away": "🇲🇦 Fas",
       "status": "FT",
-      "score": "1–1",
+      "score": "3–2",
       "goals": []
     }
   ]
