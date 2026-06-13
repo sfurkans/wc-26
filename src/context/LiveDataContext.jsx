@@ -10,14 +10,23 @@ export function LiveDataProvider({ children }) {
   const [source, setSource] = useState(null) // 'local' (elle girilen) | 'remote' (dosya/API)
   const [status, setStatus] = useState('loading') // loading | refreshing | ready | error
 
-  // Yükle: önce yerel (elle girilen) veri → varsa ağ'a hiç gitme. Yoksa dosya/API.
+  // Yükle: her zaman yayınlanan dosyayı (live-data.json) çek — tek gerçek kaynak odur.
+  // Yerel taslak YALNIZCA henüz yayınlanmamışsa (zaman damgası yayınlanandan yeniyse) üstte gösterilir.
+  // Yayınlanıp deploy tamamlanınca dosya yereli yakalar → taslak atılır, tüm cihazlar senkron olur.
   const load = useCallback(async () => {
-    const local = loadLocal()
-    if (local) { setRaw(local); setSource('local'); setStatus('ready'); return }
     setStatus((prev) => (prev === 'ready' ? 'refreshing' : 'loading'))
-    const data = await fetchLive()
-    if (data) { setRaw(data); setSource('remote'); setStatus('ready') }
-    else setStatus((prev) => (prev === 'ready' || prev === 'refreshing' ? 'ready' : 'error'))
+    const remote = await fetchLive()
+    const local = loadLocal()
+    // Yayınlanmamış yerel düzenleme var mı? (ağ yok ya da yerel taslak daha yeni)
+    if (local && (!remote || local.updated > (remote.updated || ''))) {
+      setRaw(local); setSource('local'); setStatus('ready'); return
+    }
+    if (remote) {
+      if (local) clearLocal() // yayınlanan dosya yereli yakaladı → eski taslağı temizle
+      setRaw(remote); setSource('remote'); setStatus('ready'); return
+    }
+    // Ne ağ ne de taslak var
+    setStatus((prev) => (prev === 'ready' || prev === 'refreshing' ? 'ready' : 'error'))
   }, [])
 
   useEffect(() => {
@@ -29,8 +38,8 @@ export function LiveDataProvider({ children }) {
   // — Maç yönetimi (elle giriş) —
   const upsertResult = useCallback((result) => {
     setRaw((prev) => {
-      // Yerel moddaysak üstüne ekle; dosya/demo modundan geçişte temiz başla (placeholder taşıma)
-      const base = source === 'local' ? (prev?.matches || []) : []
+      // Mevcut sonuçların (yayınlanan dosya dahil) üstüne ekle/güncelle — diğerlerini silme
+      const base = prev?.matches || []
       const matches = base.filter((m) => !(m.home === result.home && m.away === result.away))
       matches.push(result)
       const next = { updated: now(), matches }
@@ -38,7 +47,7 @@ export function LiveDataProvider({ children }) {
       return next
     })
     setSource('local'); setStatus('ready')
-  }, [source])
+  }, [])
 
   const deleteResult = useCallback((home, away) => {
     setRaw((prev) => {

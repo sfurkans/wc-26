@@ -15,7 +15,10 @@
 .m-vs{font-size:.75rem;color:#4a6fa8;font-weight:600;}
 .m-time{font-size:.72rem;color:#8bafd4;text-align:right;white-space:nowrap;}
 .match-done .m-home,.match-done .m-away{color:#8bafd4;}
-.goal-list{display:flex;flex-wrap:wrap;gap:.25rem .9rem;padding:.4rem .8rem;background:#0c1830;border:1px solid #1e3050;border-top:none;border-radius:0 0 8px 8px;}
+.goal-list{display:grid;grid-template-columns:1fr 1fr;gap:.2rem 1rem;padding:.4rem .8rem;background:#0c1830;border:1px solid #1e3050;border-top:none;border-radius:0 0 8px 8px;}
+.goal-col{display:flex;flex-direction:column;gap:.18rem;min-width:0;}
+.goal-home{align-items:flex-start;text-align:left;}
+.goal-away{align-items:flex-end;text-align:right;}
 .goal-item{font-size:.72rem;color:#9fb4d0;}
 .goal-item .gmin{color:#c9a227;font-weight:700;}
 

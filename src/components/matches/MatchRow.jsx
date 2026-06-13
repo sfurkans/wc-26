@@ -33,12 +33,22 @@ export default function MatchRow({ m }) {
       </div>
       {m.goals?.length ? (
         <div className="goal-list">
-          {m.goals.map((g, i) => (
-            <span key={i} className="goal-item">
-              <span className="gmin">{g.minute}'</span> {g.player}
-              {g.type === 'penalty' ? ' (P)' : g.type === 'own' ? ' (KK)' : ''}
-            </span>
-          ))}
+          <div className="goal-col goal-home">
+            {m.goals.filter((g) => g.team === 'home').map((g, i) => (
+              <span key={i} className="goal-item">
+                <span className="gmin">{g.minute}'</span> {g.player}
+                {g.type === 'penalty' ? ' (P)' : g.type === 'own' ? ' (KK)' : ''}
+              </span>
+            ))}
+          </div>
+          <div className="goal-col goal-away">
+            {m.goals.filter((g) => g.team === 'away').map((g, i) => (
+              <span key={i} className="goal-item">
+                {g.player}
+                {g.type === 'penalty' ? ' (P)' : g.type === 'own' ? ' (KK)' : ''} <span className="gmin">{g.minute}'</span>
+              </span>
+            ))}
+          </div>
         </div>
       ) : null}
     </div>
