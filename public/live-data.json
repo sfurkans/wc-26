@@ -1,4 +1,23 @@
 {
-  "updated": null,
-  "matches": []
+  "updated": "2026-06-13T11:42:14.244Z",
+  "matches": [
+    {
+      "home": "🇨🇦 Kanada",
+      "away": "🇧🇦 Bosna Hersek",
+      "status": "FT",
+      "score": "1–1",
+      "goals": [
+        {
+          "minute": 21,
+          "player": "Jovo Lukić",
+          "team": "away"
+        },
+        {
+          "minute": 78,
+          "player": "Cyle Larin",
+          "team": "home"
+        }
+      ]
+    }
+  ]
 }
