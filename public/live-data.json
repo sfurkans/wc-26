@@ -1,20 +1,20 @@
 {
-  "updated": "2026-06-13T11:42:14.244Z",
+  "updated": "2026-06-13T11:51:41.468Z",
   "matches": [
     {
-      "home": "🇨🇦 Kanada",
-      "away": "🇧🇦 Bosna Hersek",
+      "home": "🇲🇽 Meksika",
+      "away": "🇿🇦 Güney Afrika",
       "status": "FT",
-      "score": "1–1",
+      "score": "2–0",
       "goals": [
         {
-          "minute": 21,
-          "player": "Jovo Lukić",
-          "team": "away"
+          "minute": 9,
+          "player": "Julián Quiñones",
+          "team": "home"
         },
         {
-          "minute": 78,
-          "player": "Cyle Larin",
+          "minute": 67,
+          "player": "Raúl Jiménez",
           "team": "home"
         }
       ]
