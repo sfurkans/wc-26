@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T12:03:44.206Z",
+  "updated": "2026-06-13T12:05:01.575Z",
   "matches": [
     {
       "home": "🇰🇷 Güney Kore",
@@ -23,6 +23,20 @@
           "team": "home"
         }
       ]
+    },
+    {
+      "home": "🇲🇽 Meksika",
+      "away": "🇿🇦 Güney Afrika",
+      "status": "FT",
+      "score": "1–1",
+      "goals": []
+    },
+    {
+      "home": "🇨🇦 Kanada",
+      "away": "🇧🇦 Bosna Hersek",
+      "status": "FT",
+      "score": "2–1",
+      "goals": []
     }
   ]
 }
