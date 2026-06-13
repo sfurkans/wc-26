@@ -1,0 +1,20 @@
+/* ===== Faz 3: Canlı veri ===== */
+
+/* Yenileme göstergesi */
+.live-status{display:flex;align-items:center;gap:.6rem;margin-bottom:1.1rem;font-size:.75rem;flex-wrap:wrap;}
+.live-status .ls{display:inline-flex;align-items:center;gap:.4rem;}
+.ls-ok{color:#7ed99a;}
+.ls-load{color:#8bafd4;}
+.ls-err{color:#ff9a9a;}
+.ls-dot{width:.5rem;height:.5rem;border-radius:50%;background:#7ed99a;animation:ls-pulse 2s infinite;}
+@keyframes ls-pulse{0%{box-shadow:0 0 0 0 rgba(126,217,154,.5);}70%{box-shadow:0 0 0 6px rgba(126,217,154,0);}100%{box-shadow:0 0 0 0 rgba(126,217,154,0);}}
+.ls-btn{margin-left:auto;background:#0f1e35;border:1px solid #1e3050;color:#8bafd4;font-size:.72rem;padding:.32rem .75rem;border-radius:20px;cursor:pointer;transition:all .15s;}
+.ls-btn:hover:not(:disabled){background:#162d52;color:#dce8f5;border-color:#2a4570;}
+.ls-btn:disabled{opacity:.5;cursor:default;}
+
+/* Canlı maç rozeti */
+.m-mid{display:flex;flex-direction:column;align-items:center;gap:.1rem;}
+.match-live{border-color:#7a2e2e !important;box-shadow:inset 3px 0 #ff5a5a;}
+.m-live{display:inline-flex;align-items:center;gap:.25rem;font-size:.56rem;font-weight:800;color:#ff7a7a;letter-spacing:.5px;}
+.m-live-dot{width:.42rem;height:.42rem;border-radius:50%;background:#ff5a5a;animation:m-live-blink 1.3s infinite;}
+@keyframes m-live-blink{0%,100%{opacity:1;}50%{opacity:.25;}}
