@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T20:01:56.582Z",
+  "updated": "2026-06-13T23:33:26.514Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -97,14 +97,20 @@
     {
       "home": "🇶🇦 Katar",
       "away": "🇨🇭 İsviçre",
-      "status": "LIVE",
-      "score": "0–1",
+      "status": "FT",
+      "score": "1–1",
       "goals": [
         {
           "minute": 17,
           "player": "Breel Embolo",
           "team": "away",
           "type": "penalty"
+        },
+        {
+          "minute": 94,
+          "player": "Miro Muheim",
+          "team": "away",
+          "type": "own"
         }
       ]
     }
