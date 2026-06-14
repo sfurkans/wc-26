@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T23:33:26.514Z",
+  "updated": "2026-06-14T18:48:31.676Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -111,6 +111,55 @@
           "player": "Miro Muheim",
           "team": "away",
           "type": "own"
+        }
+      ]
+    },
+    {
+      "home": "🇧🇷 Brezilya",
+      "away": "🇲🇦 Fas",
+      "status": "FT",
+      "score": "1–1",
+      "goals": [
+        {
+          "minute": 21,
+          "player": "Ismael Saibari",
+          "team": "away"
+        },
+        {
+          "minute": 32,
+          "player": "Vinicius Junior",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🇭🇹 Haiti",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 İskoçya",
+      "status": "FT",
+      "score": "0–1",
+      "goals": [
+        {
+          "minute": 28,
+          "player": "John McGinn",
+          "team": "away"
+        }
+      ]
+    },
+    {
+      "home": "🇦🇺 Avustralya",
+      "away": "🇹🇷 Türkiye",
+      "status": "FT",
+      "score": "2–0",
+      "goals": [
+        {
+          "minute": 27,
+          "player": "Nestory Irankunda",
+          "team": "home"
+        },
+        {
+          "minute": 75,
+          "player": "Connor Metcalfe",
+          "team": "home"
         }
       ]
     }
