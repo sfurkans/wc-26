@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T12:23:27.424Z",
+  "updated": "2026-06-26T08:32:17.266Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -476,6 +476,178 @@
           "player": "Marko Arnautovic",
           "team": "home",
           "type": "penalty"
+        }
+      ]
+    },
+    {
+      "home": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 İngiltere",
+      "away": "🇭🇷 Hırvatistan",
+      "status": "FT",
+      "score": "4–2",
+      "goals": [
+        {
+          "minute": 12,
+          "player": "Harry Kane",
+          "team": "home",
+          "type": "penalty"
+        },
+        {
+          "minute": 36,
+          "player": "Martin Baturina",
+          "team": "away"
+        },
+        {
+          "minute": 42,
+          "player": "Harry Kane",
+          "team": "home"
+        },
+        {
+          "minute": 45,
+          "player": "Petar Musa",
+          "team": "away"
+        },
+        {
+          "minute": 47,
+          "player": "Jude Bellingham",
+          "team": "home"
+        },
+        {
+          "minute": 85,
+          "player": "Marcus Rashford",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🇬🇭 Gana",
+      "away": "🇵🇦 Panama",
+      "status": "FT",
+      "score": "1–0",
+      "goals": [
+        {
+          "minute": 90,
+          "player": "Caleb Yirenkyi",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🇺🇿 Özbekistan",
+      "away": "🇨🇴 Kolombiya",
+      "status": "FT",
+      "score": "1–3",
+      "goals": [
+        {
+          "minute": 40,
+          "player": "Daniel Muñoz",
+          "team": "away"
+        },
+        {
+          "minute": 60,
+          "player": "Abbosbek Fayzullaev",
+          "team": "home"
+        },
+        {
+          "minute": 65,
+          "player": "Luis Díaz",
+          "team": "away"
+        },
+        {
+          "minute": 90,
+          "player": "Jáminton Campaz",
+          "team": "away"
+        }
+      ]
+    },
+    {
+      "home": "🇨🇿 Çekya",
+      "away": "🇿🇦 Güney Afrika",
+      "status": "FT",
+      "score": "1–1",
+      "goals": [
+        {
+          "minute": 6,
+          "player": "Michal Sadílek",
+          "team": "home"
+        },
+        {
+          "minute": 83,
+          "player": "Teboho Mokoena",
+          "team": "away",
+          "type": "penalty"
+        }
+      ]
+    },
+    {
+      "home": "🇨🇭 İsviçre",
+      "away": "🇧🇦 Bosna Hersek",
+      "status": "FT",
+      "score": "4–1",
+      "goals": [
+        {
+          "minute": 74,
+          "player": "Johan Manzambi",
+          "team": "home"
+        },
+        {
+          "minute": 84,
+          "player": "Rubén Vargas",
+          "team": "home"
+        },
+        {
+          "minute": 90,
+          "player": "Johan Manzambi",
+          "team": "home"
+        },
+        {
+          "minute": 90,
+          "player": "Granit Xhaka",
+          "team": "home",
+          "type": "penalty"
+        },
+        {
+          "minute": 90,
+          "player": "Ermin Mahmic",
+          "team": "away"
+        }
+      ]
+    },
+    {
+      "home": "🇨🇦 Kanada",
+      "away": "🇶🇦 Katar",
+      "status": "FT",
+      "score": "6–0",
+      "goals": [
+        {
+          "minute": 16,
+          "player": "Cyle Larin",
+          "team": "home"
+        },
+        {
+          "minute": 29,
+          "player": "Jonathan David",
+          "team": "home"
+        },
+        {
+          "minute": 45,
+          "player": "Jonathan David",
+          "team": "home"
+        },
+        {
+          "minute": 64,
+          "player": "Nathan-Dylan Saliba",
+          "team": "home"
+        },
+        {
+          "minute": 75,
+          "player": "Mohamed Al-Mannai",
+          "team": "away",
+          "type": "own"
+        },
+        {
+          "minute": 90,
+          "player": "Jonathan David",
+          "team": "home"
         }
       ]
     }
