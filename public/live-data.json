@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T08:32:17.266Z",
+  "updated": "2026-06-27T17:58:50.096Z",
   "matches": [
     {
       "home": "🇲🇽 Meksika",
@@ -650,6 +650,94 @@
           "team": "home"
         }
       ]
+    },
+    {
+      "home": "🇲🇽 Meksika",
+      "away": "🇰🇷 Güney Kore",
+      "status": "FT",
+      "score": "1–0",
+      "goals": [
+        {
+          "minute": 50,
+          "player": "Luis Romo",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 İskoçya",
+      "away": "🇲🇦 Fas",
+      "status": "FT",
+      "score": "0–1",
+      "goals": [
+        {
+          "minute": 2,
+          "player": "Ismael Saibari",
+          "team": "away"
+        }
+      ]
+    },
+    {
+      "home": "🇧🇷 Brezilya",
+      "away": "🇭🇹 Haiti",
+      "status": "FT",
+      "score": "3–0",
+      "goals": [
+        {
+          "minute": 23,
+          "player": "Matheus Cunha",
+          "team": "home"
+        },
+        {
+          "minute": 36,
+          "player": "Matheus Cunha",
+          "team": "home"
+        },
+        {
+          "minute": 45,
+          "player": "Vinicius Junior",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🇹🇷 Türkiye",
+      "away": "🇵🇾 Paraguay",
+      "status": "FT",
+      "score": "0–1",
+      "goals": [
+        {
+          "minute": 2,
+          "player": "Matías Galarza",
+          "team": "away"
+        }
+      ]
+    },
+    {
+      "home": "🇺🇸 ABD",
+      "away": "🇦🇺 Avustralya",
+      "status": "FT",
+      "score": "2–0",
+      "goals": [
+        {
+          "minute": 11,
+          "player": "Cameron Burgess",
+          "team": "away",
+          "type": "own"
+        },
+        {
+          "minute": 43,
+          "player": "Alex Freeman",
+          "team": "home"
+        }
+      ]
+    },
+    {
+      "home": "🇩🇪 Almanya",
+      "away": "🇨🇮 Fildişi Sahili",
+      "status": "FT",
+      "score": "2–1",
+      "goals": []
     }
   ]
 }
